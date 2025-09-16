@@ -212,7 +212,7 @@ function App() {
       <section id="about" className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <img
-            src="/public/Profile.jpg"
+            src="https://i.pinimg.com/736x/2c/85/ef/2c85eff2a0cd9aea50b77377c8a8e9a2.jpg"
             alt="Gojo Developer"
             className="w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 mx-auto rounded-full border-4 border-[var(--color-accent)] mb-8 object-cover"
           />
@@ -253,7 +253,7 @@ function App() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-white font-semibold text-lg px-6 py-3 rounded-full hover:bg-[var(--color-secondary)] transition"
             >
-              <img src="/public/telegram.png" alt="xatolik"  className="w-6 h-6" />
+              <img src="https://cdn-icons-png.flaticon.com/128/5968/5968804.png" alt="xatolik"  className="w-6 h-6" />
               @Gojo_Developer
             </a>
           </div>
