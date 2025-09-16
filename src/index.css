@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #0ea5e9;     /* Sky Blue */
+    --color-secondary: #06b6d4;   /* Cyan */
+    --color-accent: #67e8f9;      /* Aqua */
+    --color-dark: #0f172a;        /* Dark */
+    --color-light: #f0f9ff;       /* Light */
+  }
+}
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out both;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
